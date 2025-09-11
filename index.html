@@ -1,12 +1,92 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/public/logo.avif" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OCEAN NFT</title>
   </head>
   <body>
+    <header class="header">
+      <div class="header-container container">
+          <a class="logo-link" href="/">
+            <img
+              class="logo"
+              src="./src/Image/logo-img.avif"
+              alt="Logo Ocean NFT"
+              
+            />
+            <p class="logo-text">Ocean<span class="logo-frag">NFT</span></p>
+          </a>
+        <nav class="header-menu">
+          <ul class="header-list">
+            <li class="header-item">
+              <a class="header-item-link" href="#">Market</a>
+            </li>
+            <li class="header-item">
+              <a class="header-item-link" href="#">Features</a>
+            </li>
+            <li class="header-item">
+              <a class="header-item-link" href="#">Community</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header-acount">
+          <ul class="header-acount-list">
+            <li>
+              <a class="header-acount-link" href="#">
+                <svg width="28.74" height="28.74">
+                  <use href="./src/Image/sprite.svg#icon-basket"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="header-acount-link" href="#">
+                <svg width="22.1" height="22.1">
+                  <use href="./src/Image/sprite.svg#icon-acount"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <button class="open-mob-menu">
+          <svg width="21.71" height="19.64">
+            <use href="./src/Image/sprite.svg#icon-open-menu"></use>
+          </svg>
+        </button>
+      </div>
+      <!-- Mobile menu -->
+      <div class="mob-menu" id="mob-menu">
+        <div class="close-mob-menu"></div>
+        <div class="menu-block">
+          <ul class="mob-menu-list">
+            <li class="mob-menu-item">
+              <a class="mob-menu-item-link" href="#">Market</a>
+            </li>
+            <li class="mob-menu-item">
+              <a class="mob-menu-item-link" href="#">Features</a>
+            </li>
+            <li class="mob-menu-item">
+              <a class="mob-menu-item-link" href="#">Community</a>
+            </li>
+            <li>
+              <a class="header-acount-link" href="#">
+                <svg width="28.74" height="28.74">
+                  <use href="./src/Image/sprite.svg#icon-basket"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="header-acount-link" href="#">
+                <svg width="22.1" height="22.1">
+                  <use href="./src/Image/sprite.svg#icon-acount"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
