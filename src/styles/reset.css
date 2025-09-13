@@ -160,9 +160,9 @@ a {
 
 .container {
   width: 100%;
-  max-width: 1432px;
+  max-width: 1464px;
   margin: 0 auto;
-  padding: 0 16px;
+  padding: 0 32px;
 }
 
 :root {

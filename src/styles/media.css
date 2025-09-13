@@ -1,0 +1,64 @@
+@media screen and (min-width: 768px) {
+  .header-menu {
+    display: flex;
+    margin-right: 200px;
+  }
+
+  .header-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 33px;
+  }
+  .header-item-link {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Orbitron", sans-serif;
+    font-size: 14px;
+    line-height: normal;
+  }
+  .header-acount {
+    display: flex;
+  }
+  .header-acount-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header {
+    padding-top: 40px;
+  }
+  .logo-text {
+    font-size: 19px;
+  }
+  .header-menu {
+    margin-right: 262px;
+  }
+  .header-list {
+    gap: 50px;
+  }
+  .header-item-link {
+    font-size: 16px;
+  }
+  .header-acount-list {
+    gap: 35px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .header {
+    padding-top: 53.06px;
+  }
+  .header-list {
+    gap: 66.33px;
+  }
+  .header-item-link {
+    font-size: 19px;
+  }
+  .header-acount-list {
+    gap: 40.9px;
+  }
+}
