@@ -103,3 +103,109 @@
 .header-acount-link {
   fill: var(--white);
 }
+
+/* Hero */
+.hero {
+  padding: 45px 0 54px;
+}
+.hero-container {
+  display: flex;
+  flex-direction: column;
+}
+.hero-title {
+  font-family: "Lato", sans-serif;
+  font-size: 42px;
+  line-height: 1.3;
+  margin-bottom: 40px;
+}
+.hero-frag {
+  background: linear-gradient(272deg, #43a5e3 46.06%, #ff56f6 81.53%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hero-text {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+.hero-btn-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+  margin-bottom: 40px;
+}
+.hero-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  padding: 13px 0 12px;
+  font-family: "Orbitron", sans-serif;
+  font-size: 12px;
+  color: var(--white);
+  fill: var(--white);
+  stroke: var(--white);
+  background: linear-gradient(
+    92deg,
+    #ff56f6 21.43%,
+    #b936ee 50.63%,
+    #3bace2 100%,
+    #406aff 117.04%
+  );
+  box-shadow: 0 2.359px 57.217px rgba(255, 86, 246, 0.51);
+  backdrop-filter: blur(56.626731872558594px);
+  border: none;
+  width: 133px;
+  border-radius: 2px;
+  clip-path: polygon(20% 0%, 100% 0%, 100% 57%, 83% 100%, 0% 100%, 0% 50%);
+  cursor: pointer;
+}
+.hero-link {
+  font-family: "Orbitron", sans-serif;
+  font-size: 12px;
+  line-height: normal;
+  background: linear-gradient(90deg, #42a6e3 2.33%, #ff56f6 101.4%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hero-follow {
+  margin-bottom: 41px;
+}
+.hero-follow-list {
+  display: flex;
+  gap: 56px;
+  justify-content: space-between;
+}
+.follow-num {
+  font-family: "Aldrich", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.118px;
+  margin-bottom: 2.9px;
+}
+.follow-text {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.118px;
+}
+.hero-icons-wrapper {
+  margin-bottom: 58px;
+}
+.hero-icons-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+.hero-icons {
+  fill: var(--white);
+  stroke: var(--white);
+  opacity: 0.5;
+}
