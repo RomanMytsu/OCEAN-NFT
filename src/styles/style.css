@@ -197,7 +197,12 @@
 .hero-icons-wrapper-mob {
   margin-bottom: 58px;
 }
-
+.hero-icons-list-mob {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 41px;
+  align-items: center;
+}
 .hero-icons {
   fill: var(--white);
   stroke: var(--white);
