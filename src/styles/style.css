@@ -322,7 +322,7 @@
 
 /* Top-NFT */
 .top-nft {
-  padding: 180px 0;
+  padding: 108px 0;
 }
 .top-nft-title {
   font-family: "Orbitron", sans-serif;
@@ -412,4 +412,70 @@
   z-index: -1;
   clip-path: polygon(20% 0%, 100% 0%, 100% 57%, 83% 100%, 0% 100%, 0% 50%);
   border-radius: 2px;
+}
+
+/* Collections */
+.collections {
+  padding-bottom: 111px;
+}
+.collections-title {
+  font-family: "Orbitron", sans-serif;
+  font-size: 16px;
+  line-height: normal;
+  margin-bottom: 26px;
+}
+.collections-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 17px 17px;
+  margin-bottom: 17px;
+}
+.collections-item {
+  width: calc((100% - 17px) / 2);
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  font-size: 10px;
+  line-height: normal;
+  border: 1.193px solid #ffa6fa;
+  backdrop-filter: blur(57.275272369384766px);
+  border-image: linear-gradient(-45deg, #ffa6fa 47%, #3c79d4 97%) 1;
+  box-shadow: 0 2.386px 57.872px 0 rgba(255, 86, 246, 0.11);
+  padding: 13px;
+  transition: all 0.4s ease-in-out;
+}
+.collections-item:hover,
+.collections-item:focus {
+  color: var(--white);
+  border-radius: 0.9px;
+  border: 0.916px solid #ffa6fa;
+  background: linear-gradient(
+    92deg,
+    #ff56f6 21.43%,
+    #b936ee 50.63%,
+    #3bace2 100%,
+    #406aff 117.04%
+  );
+  box-shadow: 0 1.832px 44.427px 0 rgba(255, 86, 246, 0.51);
+  backdrop-filter: blur(43px);
+}
+.collections-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  background-color: transparent;
+  border: none;
+  color: var(--white);
+  font-family: "Orbitron", sans-serif;
+  font-size: 8px;
+  margin-left: auto;
+  margin-bottom: 4px;
+  fill: var(--white);
+  stroke: var(--white);
+}
+.collections-img {
+  margin: 0 auto;
+  width: 185px;
+  height: 347px;
 }
