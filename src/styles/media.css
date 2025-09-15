@@ -62,7 +62,7 @@
 
   /* Hero */
   .hero {
-    padding: 80px 0 150px;
+    padding: 80px 0 45px;
   }
   .hero-wrapper {
     display: flex;
@@ -134,8 +134,70 @@
     justify-content: space-between;
     align-items: center;
   }
-
   .hero-icons-wrapper-mob {
+    display: none;
+  }
+  /* Top_NFT */
+  .top-nft {
+    padding: 150px 0 150px;
+  }
+  .top-nft-title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 47px;
+  }
+  .top-nft-title {
+    font-size: 22px;
+  }
+  .top-nft-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background-color: transparent;
+    border: none;
+    color: var(--white);
+    font-family: "Orbitron", sans-serif;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  .top-nft-card-wrap {
+    padding: 35px 27px 25px 30px;
+  }
+  .card-title-nft {
+    font-size: 23px;
+  }
+  .user-nickname-nft {
+    font-size: 20px;
+  }
+  .card-price-nft {
+    font-size: 14px;
+  }
+  .price-name-nft {
+    font-size: 12px;
+  }
+  .price-nft {
+    font-size: 14px;
+  }
+  .auction-title-nft {
+    font-size: 14px;
+  }
+  .auction-num-nft {
+    font-size: 23px;
+  }
+  .auction-text-nft {
+    font-size: 14px;
+  }
+  .top-nft-auction-btn {
+    padding: 10px 19px 10px 12px;
+    font-size: 23px;
+    gap: 12px;
+    width: 156px;
+    white-space: nowrap;
+    margin-top: 25px;
+  }
+  .top-nft-btn-wrapper {
     display: none;
   }
 }
@@ -165,5 +227,16 @@
   .hero-text {
     font-size: 26px;
     max-width: 657px;
+  }
+
+  /* TOP-NFT */
+  .top-nft {
+    padding: 220px 0 209px;
+  }
+  .top-nft-title {
+    font-size: 26px;
+  }
+  .top-nft-btn {
+    font-size: 26px;
   }
 }

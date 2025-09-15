@@ -346,7 +346,6 @@
   );
   backdrop-filter: blur(23px);
   border: 1.7px rgba(255, 255, 255, 0.28) solid;
-  width: 303px;
 }
 .top-nft-auction-btn {
   display: flex;
@@ -395,7 +394,6 @@
   width: 133px;
   cursor: pointer;
   border: none;
-  
 }
 .top-nft-btn-mob::before {
   content: "";
@@ -409,8 +407,8 @@
 .top-nft-btn-mob::after {
   content: "";
   position: absolute;
-  inset: 1px; 
-  background-color: #20083b; 
+  inset: 1px;
+  background-color: #20083b;
   z-index: -1;
   clip-path: polygon(20% 0%, 100% 0%, 100% 57%, 83% 100%, 0% 100%, 0% 50%);
   border-radius: 2px;
