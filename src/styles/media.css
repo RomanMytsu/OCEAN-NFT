@@ -161,6 +161,8 @@
     font-family: "Orbitron", sans-serif;
     font-size: 22px;
     cursor: pointer;
+    fill: var(--white);
+    stroke: var(--white);
   }
   .top-nft-card-wrap {
     padding: 35px 27px 25px 30px;
@@ -237,6 +239,63 @@
     width: 435px;
     height: 600px;
   }
+
+  /* Explore */
+  .explore {
+    padding-bottom: 160px;
+  }
+  .explore-title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .explore-title {
+    font-size: 22px;
+  }
+  .explore-item {
+    border: 2.88px solid rgba(255, 255, 255, 0.28);
+    backdrop-filter: blur(39.60016632080078px);
+  }
+  .explore-card-content {
+    padding: 85px 40px 35px;
+  }
+  .explore-user-img {
+    width: 162px;
+    height: 162px;
+    margin-bottom: 16px;
+  }
+  .explore-card-name {
+    font-size: 22px;
+  }
+  .explore-nickname {
+    font-size: 18px;
+  }
+  .explore-stat {
+    margin-bottom: 23px;
+  }
+  .stat-num {
+    font-size: 26px;
+  }
+  .stat-descrip {
+    font-size: 16px;
+  }
+  .explore-btn {
+    font-size: 16px;
+    background: linear-gradient(
+      92deg,
+      #ff56f6 21.43%,
+      #b936ee 50.63%,
+      #3bace2 100%,
+      #406aff 117.04%
+    );
+    border: 2.409px solid #ffa6fa;
+    box-shadow: 0 4.817px 116.824px 0 rgba(255, 86, 246, 0.51);
+    backdrop-filter: blur(115.61940002441406px);
+    min-width: 220px;
+    height: 43px;
+    padding: 11px;
+  }
 }
 
 @media screen and (min-width: 1920px) {
@@ -302,5 +361,31 @@
   }
   .collections-img {
     height: 814px;
+  }
+
+  /* Explore */
+  .explore-title {
+    font-size: 26px;
+  }
+  .explore-card-content {
+    padding: 101px 38px 40px;
+  }
+  .explore-card-name {
+    font-size: 24px;
+  }
+  .explore-nickname {
+    font-size: 20px;
+  }
+  .stat-num {
+    font-size: 31px;
+  }
+  .stat-descrip {
+    font-size: 19px;
+  }
+  .explore-btn {
+    font-size: 19px;
+    min-width: 234px;
+    height: 50px;
+    padding: 11px;
   }
 }

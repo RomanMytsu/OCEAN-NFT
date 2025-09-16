@@ -9,7 +9,6 @@
 .logo-link {
   display: flex;
   align-items: center;
-  gap: 3.59px;
 }
 
 .header-logo-icon {
@@ -102,6 +101,7 @@
 }
 .header-acount-link {
   fill: var(--white);
+  stroke: var(--white);
 }
 
 /* Hero */
@@ -478,4 +478,96 @@
   margin: 0 auto;
   width: 185px;
   height: 347px;
+}
+
+/* Explore */
+.explore {
+  padding-bottom: 108px;
+}
+.explore-title-container {
+  margin-bottom: 31px;
+}
+.explore-title {
+  font-family: "Orbitron", sans-serif;
+  font-size: 18px;
+  line-height: normal;
+}
+.explore-list {
+  display: flex;
+}
+.explore-item {
+  background-image: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.1) -1.52%,
+      rgba(255, 255, 255, 0.02) 104.35%
+    ),
+    url(/src/Image/explore-bg.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  border: 1.994px solid rgba(255, 255, 255, 0.28);
+  backdrop-filter: blur(27.41884994506836px);
+}
+.explore-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 70px 26px 28px;
+}
+.explore-user-img {
+  margin-bottom: 11px;
+}
+.explore-card-name {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.8;
+}
+.explore-nickname-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1.32px;
+  margin-bottom: 17px;
+}
+.explore-nickname {
+  color: #ffb1ee;
+  font-size: 13.959px;
+  line-height: 2.2;
+}
+.explore-stat {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 16px;
+}
+.stat-num {
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 2;
+}
+.stat-descrip {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 3.2;
+  opacity: 0.7;
+}
+.explore-btn {
+  color: var(--white);
+  font-family: "Rajdhani", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  background: linear-gradient(
+    92deg,
+    #ff56f6 21.43%,
+    #b936ee 50.63%,
+    #3bace2 100%,
+    #406aff 117.04%
+  );
+  border: 1.668px solid #ffa6fa;
+  box-shadow: 0 3.336px 80.888px 0 rgba(255, 86, 246, 0.51);
+  backdrop-filter: blur(80.0539779663086px);
+  min-width: 162px;
+  height: 35px;
+  padding: 7px;
 }
