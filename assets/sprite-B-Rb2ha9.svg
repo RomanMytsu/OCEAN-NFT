@@ -90,5 +90,8 @@
 <path d="M74.763 25l9.16-9.16-9.16-9.16 1.832-3.664 12.824 12.824-12.824 12.824-1.832-3.664z"></path>
 <path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="3.6641" d="M83.924 15.841h-80.61"></path>
 </symbol>
+<symbol id="icon-Vector" viewBox="0 0 22 32">
+<path d="M7.233 16.658l-1.5-0.878 1.499 2.096 1.501-2.096-1.5 0.878zM7.255 13.029l-1.5 2.468 1.5 0.88 1.5-0.879-1.5-2.469z"></path>
+</symbol>
 </defs>
 </svg>
