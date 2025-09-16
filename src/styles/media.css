@@ -38,6 +38,14 @@
     flex-direction: column;
     align-items: baseline;
   }
+  /* sellers */
+  .sellers-text {
+    font-size: 16px;
+  }
+  .sellers-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -296,6 +304,69 @@
     height: 43px;
     padding: 11px;
   }
+
+  /* Seller */
+  .sellers {
+    padding-bottom: 130px;
+  }
+  .sellers-title {
+    font-size: 22px;
+    margin-bottom: 23px;
+  }
+  .sellers-text {
+    font-size: 17px;
+    max-width: 506px;
+    margin: 0 auto 38px;
+  }
+  .sellers-list {
+    justify-content: center;
+    gap: 28px;
+    margin-bottom: 61px;
+  }
+  .sellers-item {
+    padding: 25px 18px 24px 27px;
+    border-radius: 28.572px;
+    border: 2.757px solid rgba(255, 255, 255, 0.28);
+    backdrop-filter: blur(37.90785598754883px);
+    height: 114px;
+    width: calc((100% - 28px * 2) / 3);
+  }
+  .item-number {
+    font-size: 16px;
+  }
+  .sellers-item-img {
+    width: 69px;
+    height: 69px;
+  }
+  .info-name {
+    font-size: 16px;
+  }
+  .ifo-coins {
+    gap: 4px;
+  }
+  .info-coins-price {
+    font-size: 11px;
+  }
+  .sellers-percent {
+    font-size: 12px;
+    padding: 7px 17px;
+    width: 100px;
+    height: 30px;
+  }
+  .sellers-list .sellers-item:nth-child(odd) .sellers-percent {
+    border-radius: 17.528px;
+    border: 1.131px solid rgba(178, 0, 0, 0.72);
+  }
+  .sellers-list .sellers-item:nth-child(even) .sellers-percent {
+    border-radius: 17.528px;
+    border: 1.131px solid rgba(0, 178, 71, 0.72);
+    background: rgba(0, 178, 71, 0.15);
+  }
+  .sellers-btn-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media screen and (min-width: 1920px) {
@@ -387,5 +458,36 @@
     min-width: 234px;
     height: 50px;
     padding: 11px;
+  }
+
+  /* Sellers */
+  .sellers {
+    padding-bottom: 160px;
+  }
+  .sellers-title {
+    font-size: 26px;
+    margin-bottom: 23px;
+  }
+  .sellers-list {
+    gap: 34px;
+  }
+  .sellers-item {
+    width: calc((100% - 34px * 2) / 3);
+    height: 124px;
+    padding: 25px 18px 24px 27px;
+  }
+  .item-number {
+    font-size: 19px;
+  }
+  .info-name {
+    font-size: 19px;
+  }
+  .info-coins-price {
+    font-size: 13px;
+  }
+  .sellers-percent {
+    font-size: 14px;
+    width: 100px;
+    height: 35px;
   }
 }
