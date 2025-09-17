@@ -743,3 +743,63 @@
 .play-icon {
   fill: var(--white);
 }
+
+/* Subscribe */
+.subscribe {
+  padding: 206px 0 108px;
+}
+.subscribe-container {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 108px;
+}
+.subscribe-title {
+  font-family: "Orbitron", sans-serif;
+  font-size: 26px;
+  white-space: nowrap;
+  margin-bottom: 18px;
+}
+.subscribe-text {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  line-height: 1.7;
+  margin-bottom: 32px;
+  width: 324px;
+}
+.subscribe-form {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.subscribe-input {
+  border-radius: 3.649px 0 0 3.649px;
+  background-color: #f4f5f7;
+  padding: 7px 10px;
+  color: #474a57;
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  line-height: 1.7;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.subscribe-form-btn {
+  color: var(--white);
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 1.4;
+  text-align: center;
+  border-radius: 0 3.649px 3.649px 0;
+  border: 1.59px solid #ffa6fa;
+  background: linear-gradient(
+    92deg,
+    #ff56f6 21.43%,
+    #b936ee 50.63%,
+    #3bace2 100%,
+    #406aff 117.04%
+  );
+  box-shadow: 0 3.18px 77.117px 0 rgba(255, 86, 246, 0.51);
+  backdrop-filter: blur(76.32205200195312px);
+  padding: 7px 21px;
+}
