@@ -4,7 +4,7 @@ const showItems = () => {
   sellersItems.forEach(
     (item) =>
       (item.style.display =
-        window.innerWidth < 1440 && !item.classList.contains("show-mob")
+        window.innerWidth < 1439 && !item.classList.contains("show-mob")
           ? "none"
           : "flex")
   );
@@ -20,7 +20,7 @@ sellersItems.forEach((item) => {
 
 const items = document.querySelectorAll(".sellers-item .item-number");
 const updateNumbers = () => {
-  if (window.innerWidth < 1440) {
+  if (window.innerWidth < 1439) {
     let count = 0;
     items.forEach(
       (el) =>
