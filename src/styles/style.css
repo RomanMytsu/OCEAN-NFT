@@ -804,13 +804,11 @@
 }
 
 /* Footer */
+.container {
+  padding: 0 25px;
+}
 .footer {
   padding-bottom: 174.47px;
-}
-.footer-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 .footer-line {
   width: 324px;

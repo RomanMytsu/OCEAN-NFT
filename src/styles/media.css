@@ -63,9 +63,25 @@
     align-items: end;
     gap: 60px;
   }
+
+  /* Footer */
+  .footer {
+    padding-bottom: 200.47px;
+  }
+  .container {
+    padding: 0 32px;
+  }
+  .footer-line {
+    width: 703px;
+  }
+  .footer-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1440px) and (max-width: 1920px) {
   .header {
     padding-top: 40px;
   }
@@ -446,6 +462,84 @@
     border: 2.409px solid #ffa6fa;
     box-shadow: 0 4.817px 116.824px 0 rgba(255, 86, 246, 0.51);
     padding: 10px 33px;
+  }
+
+  /* Footer */
+  .footer {
+    padding-bottom: 42.15px;
+  }
+  .container {
+    padding: 0 182.4px 0 82.91px;
+  }
+  .footer-line {
+    width: 1338.711px;
+    height: 1.105px;
+    margin: 0 0 95.99px 0;
+  }
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 89.54px;
+    margin-bottom: 86.04px;
+  }
+  .footer-head {
+    align-items: baseline;
+    margin-bottom: 0;
+  }
+  .footer-logo-link {
+    margin-bottom: 30.95px;
+  }
+  .footer-head-text {
+    width: 281px;
+    margin-bottom: 26.53px;
+  }
+  .footer-list-icon {
+    display: none;
+  }
+  .footer-menu-list {
+    margin-bottom: 0;
+    display: flex;
+    gap: 77.38px;
+  }
+  .footer-menu-item {
+    border-bottom: 0;
+    margin-bottom: 0;
+  }
+  .footer-menu-item-title {
+    margin-bottom: 17.69px;
+  }
+  .item-title {
+    width: 123.873px;
+  }
+  .submenu {
+    overflow: visible;
+    margin-top: 0;
+    gap: 13.5px;
+    max-height: none;
+  }
+  .item-text-frag {
+    margin-left: 7.84px;
+  }
+  .bottom {
+    display: block;
+    margin: 0 0 26.53px 0;
+  }
+  .footer-copyright {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer-copyright-list {
+    gap: 17.68px;
+    margin-right: -20px;
+  }
+  .footer-copyright-list li:last-of-type {
+    display: block;
+    border: none;
+    gap: 4px;
+  }
+  .footer-copyright-item {
+    border-right: 2px solid #d9dbe1;
+    padding-right: 17px;
   }
 }
 
