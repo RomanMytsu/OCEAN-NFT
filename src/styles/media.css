@@ -81,7 +81,7 @@
   }
 }
 
-@media screen and (min-width: 1440px) and (max-width: 1920px) {
+@media screen and (min-width: 1440px) and (max-width: 1599px) {
   .header {
     padding-top: 40px;
   }
@@ -509,7 +509,7 @@
     margin-bottom: 17.69px;
   }
   .item-title {
-    width: 123.873px;
+    width: 133.873px;
   }
   .submenu {
     overflow: visible;

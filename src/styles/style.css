@@ -1,26 +1,35 @@
+body {
+  background-image: linear-gradient(
+      rgba(32, 8, 59, 0.75),
+      rgba(32, 8, 59, 0.75)
+    ),
+    url(/src/Image/Bg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 1920px;
+  backdrop-filter: blur(83.5px);
+}
 .header {
-  padding-top: 28.95px;
+  padding-top: 22.88px;
 }
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 28.29px 0 23px;
 }
 .logo-link {
   display: flex;
   align-items: center;
-}
-
-.header-logo-icon {
-  fill: #ff56f6;
-  backdrop-filter: blur(106.12408447265625px);
-}
-
-.logo-text {
   color: rgba(255, 255, 255, 0.6);
   font-family: "Orbitron", sans-serif;
   font-size: 16.128px;
   line-height: normal;
+}
+.header-logo-icon {
+  fill: #ff56f6;
+  backdrop-filter: blur(106.12408447265625px);
 }
 .logo-frag {
   color: #fff;
@@ -105,7 +114,10 @@
 
 /* Hero */
 .hero {
-  padding: 45px 0 54px;
+  padding: 56px 0 143px;
+}
+.hero-container {
+  padding: 0 34.09px 0 30px;
 }
 .hero-wrapper {
   display: flex;
@@ -114,8 +126,8 @@
 .hero-title {
   font-family: "Lato", sans-serif;
   font-size: 42px;
-  line-height: 1.3;
-  margin-bottom: 40px;
+  line-height: 1.37;
+  margin-bottom: 27px;
 }
 .hero-frag {
   background: linear-gradient(272deg, #43a5e3 46.06%, #ff56f6 81.53%);
@@ -125,26 +137,37 @@
 }
 .hero-text {
   font-size: 14px;
-  line-height: 1.6;
-  margin-bottom: 40px;
+  line-height: 1.65;
+  margin-bottom: 30px;
 }
 .hero-btn-wrapper {
   display: flex;
   align-items: center;
-  gap: 19px;
+  gap: 21px;
   margin-bottom: 40px;
 }
 .hero-btn {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 9px;
-  padding: 13px 0 12px;
+  padding: 12px 15.11px 12.21px 28px;
   font-family: "Orbitron", sans-serif;
   font-size: 12px;
   color: var(--white);
   fill: var(--white);
   stroke: var(--white);
+  background-color: transparent;
+  backdrop-filter: blur(56.626731872558594px);
+  border: none;
+  width: 133px;
+  cursor: pointer;
+}
+.hero-btn::before {
+  content: "";
+  position: absolute;
+  inset: -1.18px;
   background: linear-gradient(
     92deg,
     #ff56f6 21.43%,
@@ -152,13 +175,25 @@
     #3bace2 100%,
     #406aff 117.04%
   );
-  box-shadow: 0 2.359px 57.217px rgba(255, 86, 246, 0.51);
-  backdrop-filter: blur(56.626731872558594px);
-  border: none;
-  width: 133px;
+  clip-path: polygon(19% 0%, 100% 0%, 100% 68%, 83% 100%, 0% 100%, 0% 33%);
+  z-index: -1;
   border-radius: 2px;
-  clip-path: polygon(20% 0%, 100% 0%, 100% 57%, 83% 100%, 0% 100%, 0% 50%);
-  cursor: pointer;
+}
+.hero-btn::after {
+  content: "";
+  position: absolute;
+  inset: 1.18px;
+  background: linear-gradient(
+    -92deg,
+    #ff56f6 21.43%,
+    #b936ee 50.63%,
+    #3bace2 100%,
+    #406aff 117.04%
+  );
+  clip-path: polygon(19% 0%, 100% 0%, 100% 68%, 83% 100%, 0% 100%, 0% 33%);
+  filter: drop-shadow(0 2.359px 57.217px rgba(255, 86, 246, 0.51));
+  z-index: -1;
+  border-radius: 2px;
 }
 .hero-link {
   font-family: "Orbitron", sans-serif;
@@ -174,14 +209,13 @@
 }
 .hero-follow-list {
   display: flex;
-  gap: 56px;
-  justify-content: space-between;
+  gap: 67.49px;
+  align-items: center;
 }
 .follow-num {
   font-family: "Aldrich", sans-serif;
   font-size: 18px;
-  line-height: 1.5;
-  letter-spacing: 0.118px;
+  line-height: 1.47;
   margin-bottom: 2.9px;
 }
 .follow-text {
@@ -190,8 +224,7 @@
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1;
-  letter-spacing: 0.118px;
+  line-height: 1.17;
 }
 .hero-icons-wrapper-mob {
   margin-bottom: 58px;
@@ -199,40 +232,40 @@
 .hero-icons-list-mob {
   display: flex;
   flex-wrap: wrap;
-  gap: 41px;
+  gap: 25px 45px;
   align-items: center;
 }
 .hero-icons {
   fill: var(--white);
-  stroke: var(--white);
   opacity: 0.5;
 }
-.hero-img-wrapper {
-  position: relative;
-}
+
 .hero-monster-img {
-  clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 12%);
+  clip-path: polygon(21% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 12%);
   border-radius: 5px;
   opacity: 0.8;
 }
 .hero-card {
   position: absolute;
-  top: 323px;
+  top: 1030px;
 }
 .card-wrap {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 30px;
-  backdrop-filter: blur(10px);
-  background: rgba(255, 255, 255, 0.28);
-  padding: 25px 16px 11px 17px;
-  clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 24%);
-  border-radius: 8px;
-  width: 311px;
+  gap: 54px;
+  backdrop-filter: blur(29.3092098236084px);
+  padding: 25.65px 17.25px 19.78px 15.38px;
+  clip-path: polygon(13% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 22%);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.1) -1.52%,
+    rgba(255, 255, 255, 0.02) 104.35%
+  );
+  border: 2.132px solid rgba(255, 255, 255, 0.28);
+  border-radius: 8.53px;
+  max-width: 324px;
 }
 .card-title {
-  font-size: 17px;
+  font-size: 17.053px;
   line-height: 2;
   white-space: nowrap;
 }
@@ -248,13 +281,12 @@
 .card-price {
   font-size: 10px;
   font-weight: 600;
-  line-height: 3.2;
+  line-height: 4;
   opacity: 0.7;
 }
 .product {
   display: flex;
-  align-items: center;
-  gap: 5px;
+  gap: 5.33px;
 }
 .hero-logo-icon {
   fill: var(--white);
@@ -262,47 +294,49 @@
 .price-name {
   font-family: "Orbitron", sans-serif;
   font-size: 9px;
-  line-height: normal;
   white-space: nowrap;
 }
 .price {
   font-size: 10px;
-  line-height: 3.2;
   opacity: 0.7;
 }
 .auction-title {
-  font-size: 10px;
+  font-size: 10.658px;
   font-weight: 600;
   line-height: 3.2;
   opacity: 0.7;
 }
 .auction-list {
   display: flex;
-  gap: 17px;
+  gap: 18px;
+  margin-bottom: 25.18px;
 }
 .auction-num {
-  font-size: 17px;
+  font-size: 17.053px;
   font-weight: 600;
-  line-height: 2;
+  line-height: 0.5;
+  margin-bottom: 7px;
 }
 .auction-text {
-  font-size: 10px;
+  font-size: 10.658px;
   font-weight: 500;
-  line-height: 3.2;
+  line-height: 1.2;
   opacity: 0.7;
 }
 .auction-btn {
   display: flex;
-  gap: 9px;
+  gap: 9.59px;
+
   align-items: center;
-  font-size: 17px;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 17.053px;
   font-weight: 600;
   color: var(--white);
   fill: var(--white);
   stroke: var(--white);
-  padding: 12px 8px 14px 9px;
-  border-radius: 2.132px;
-  border: 2.132px solid #ffa6fa;
+  padding: 7.46px 8.53px 7.46px 9.53px;
+  border-radius: 4.132px;
+  border-image: linear-gradient(280deg, #ffa6fa, #3c79d4) 1;
   background: linear-gradient(
     92deg,
     #ff56f6 21.43%,
@@ -313,7 +347,7 @@
   box-shadow: 0 4.263px 103.382px 0 rgba(255, 86, 246, 0.51);
   backdrop-filter: blur(102.3157958984375px);
   cursor: pointer;
-  white-space: nowrap;
+  margin-left: -8px;
 }
 .hero-icons-wrapper {
   display: none;
@@ -321,7 +355,10 @@
 
 /* Top-NFT */
 .top-nft {
-  padding: 108px 0;
+  padding-top: 97px;
+}
+.top-nft-container {
+  padding: 0 0 0 25px;
 }
 .top-nft-title {
   font-family: "Orbitron", sans-serif;
@@ -334,10 +371,8 @@
 }
 .top-nft-card-wrap {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 16px;
-  padding: 24px 26px 14px 18px;
+  gap: 46px;
+  padding: 27.87px 19px 18px 21.22px;
   background-image: linear-gradient(
     90deg,
     rgba(255, 255, 255, 0.1) -1.52%,
@@ -346,6 +381,60 @@
   backdrop-filter: blur(23px);
   border: 1.7px rgba(255, 255, 255, 0.28) solid;
 }
+
+.card-title-nft {
+  font-size: 13.601px;
+  line-height: 27.201px;
+  margin-bottom: 3.18px;
+}
+.user-top-nft {
+  gap: 3px;
+  margin-bottom: 16px;
+}
+.user-nickname-nft {
+  font-size: 11.901px;
+  line-height: 27.201px;
+  margin-right: 9px;
+}
+.card-price-nft {
+  font-size: 8.5px;
+  line-height: 27.201px;
+  margin-top: -8px;
+  margin-bottom: -5px;
+  margin-left: -1px;
+}
+.product-top-nft {
+  gap: 1.46px;
+  align-items: center;
+  margin-left: -5px;
+}
+.price-name-nft {
+  font-size: 7.472px;
+  line-height: normal;
+  margin-right: 11px;
+}
+.price-nft {
+  font-size: 8.5px;
+  line-height: 27.201px;
+}
+.auction-title-nft {
+  font-size: 8.5px;
+  line-height: 27.201px;
+  margin-bottom: -7px;
+}
+.auction-list-top-nft {
+  gap: 21px;
+  margin-bottom: 8.18px;
+}
+.auction-num-nft {
+  font-size: 13.601px;
+  line-height: 27.201px;
+  margin-bottom: 0;
+}
+.auction-text-nft {
+  font-size: 8.5px;
+  line-height: 27.201px;
+}
 .top-nft-auction-btn {
   display: flex;
   align-items: center;
@@ -353,7 +442,7 @@
   fill: var(--white);
   stroke: var(--white);
   color: var(--white);
-  font-size: 13px;
+  font-size: 13.601px;
   font-family: "Rajdhani", sans-serif;
   font-weight: 600;
   line-height: normal;
@@ -367,22 +456,21 @@
     #406aff 117.04%
   );
   box-shadow: 0 3.4px 82.454px 0 rgba(255, 86, 246, 0.1);
-  margin-top: 18px;
-  width: 107px;
   cursor: pointer;
+  white-space: nowrap;
 }
 .top-nft-btn-wrapper {
   display: flex;
-  justify-content: center;
-  margin-top: 40px;
+  margin-top: 20px;
+  margin-left: 96px;
 }
 .top-nft-btn-mob {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 9px;
-  padding: 13px 0 12px;
+  gap: 9.48px;
+  padding: 12px 17.11px 12.21px 27px;
   font-family: "Orbitron", sans-serif;
   font-size: 12px;
   color: var(--white);
@@ -390,7 +478,6 @@
   stroke: var(--white);
   backdrop-filter: blur(56px);
   background-color: transparent;
-  width: 133px;
   cursor: pointer;
   border: none;
 }
@@ -400,7 +487,7 @@
   inset: -1px;
   background: linear-gradient(280deg, #3c79d4, #ffa6fa);
   z-index: -1;
-  clip-path: polygon(20% 0%, 100% 0%, 100% 57%, 83% 100%, 0% 100%, 0% 50%);
+  clip-path: polygon(19% 0%, 100% 0%, 100% 73%, 83% 100%, 0% 100%, 0% 33%);
   border-radius: 2px;
 }
 .top-nft-btn-mob::after {
@@ -409,19 +496,22 @@
   inset: 1px;
   background-color: #20083b;
   z-index: -1;
-  clip-path: polygon(20% 0%, 100% 0%, 100% 57%, 83% 100%, 0% 100%, 0% 50%);
+  clip-path: polygon(19% 0%, 100% 0%, 100% 73%, 83% 100%, 0% 100%, 0% 33%);
   border-radius: 2px;
 }
 
 /* Collections */
 .collections {
-  padding-bottom: 111px;
+  padding-top: 107.79px;
+}
+.collections-container {
+  padding: 0 25.65px 0 25px;
 }
 .collections-title {
   font-family: "Orbitron", sans-serif;
   font-size: 16px;
   line-height: normal;
-  margin-bottom: 26px;
+  margin-bottom: 19.21px;
 }
 .collections-list {
   display: flex;
@@ -434,7 +524,7 @@
   color: rgba(255, 255, 255, 0.5);
   text-align: center;
   font-family: "Orbitron", sans-serif;
-  font-size: 10px;
+  font-size: 10.992px;
   line-height: normal;
   border: 1.193px solid #ffa6fa;
   backdrop-filter: blur(57.275272369384766px);
@@ -462,16 +552,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 6px;
+  gap: 6.41px;
   background-color: transparent;
   border: none;
   color: var(--white);
   font-family: "Orbitron", sans-serif;
-  font-size: 8px;
-  margin-left: auto;
+  font-size: 8.244px;
+  margin-left: 252px;
   margin-bottom: 4px;
   fill: var(--white);
   stroke: var(--white);
+  white-space: nowrap;
 }
 .collections-img {
   margin: 0 auto;
@@ -481,7 +572,10 @@
 
 /* Explore */
 .explore {
-  padding-bottom: 108px;
+  padding-top: 111.66px;
+}
+.explore-container {
+  padding: 0px 0px 0px 25px;
 }
 .explore-title-container {
   margin-bottom: 31px;
@@ -500,7 +594,7 @@
       rgba(255, 255, 255, 0.1) -1.52%,
       rgba(255, 255, 255, 0.02) 104.35%
     ),
-    url(/src/Image/explore-bg.png);
+    url(/src/Image/explore-bg.webp);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: contain;
@@ -515,40 +609,40 @@
   padding: 70px 26px 28px;
 }
 .explore-user-img {
-  margin-bottom: 11px;
+  margin-bottom: 5px;
 }
 .explore-card-name {
-  font-size: 16px;
+  font-size: 16.839px;
   font-weight: 500;
-  line-height: 1.8;
+  line-height: 29.906px;
 }
 .explore-nickname-wrapper {
   display: flex;
   align-items: center;
   gap: 1.32px;
-  margin-bottom: 17px;
+  margin-left: 12.5px;
+  margin-bottom: 19.82px;
 }
 .explore-nickname {
   color: #ffb1ee;
   font-size: 13.959px;
-  line-height: 2.2;
+  line-height: 15.906px;
+  margin-right: 1px;
 }
 .explore-stat {
   display: flex;
   justify-content: space-between;
-  text-align: center;
-  width: 100%;
-  margin-bottom: 16px;
+  width: 95.8%;
+  margin-bottom: 27px;
 }
 .stat-num {
-  font-size: 21px;
+  font-size: 21.942px;
   font-weight: 600;
-  line-height: 2;
+  text-align: center;
 }
 .stat-descrip {
-  font-size: 13px;
+  font-size: 13.714px;
   font-weight: 500;
-  line-height: 3.2;
   opacity: 0.7;
 }
 .explore-btn {
@@ -571,14 +665,22 @@
   height: 35px;
   padding: 7px;
 }
+.explore-btn-wrapper-mob {
+  display: flex;
+  margin-top: 41px;
+  margin-left: 96px;
+}
 
 /* Sellers */
 .sellers {
-  padding-bottom: 108px;
+  padding: 106.79px 0 108.79px;
+}
+.sellers-container {
+  padding: 0 30.97px 0 28.23px;
 }
 .sellers-title {
   font-family: "Orbitron", sans-serif;
-  font-size: 19px;
+  font-size: 19.231px;
   margin-bottom: 16px;
   text-align: center;
 }
@@ -592,19 +694,20 @@
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
-  line-height: 1.4;
-  margin-bottom: 37px;
+  line-height: 20.626px;
+  margin-bottom: 27px;
 }
 .sellers-list {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 26px;
 }
 .sellers-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 10px;
   padding: 19px 14px 19px 21px;
   border-radius: 20.711px;
   border: 1.998px solid rgba(255, 255, 255, 0.28);
@@ -615,23 +718,26 @@
 .item-number {
   color: rgba(255, 255, 255, 0.8);
   font-family: "Roboto", sans-serif;
-  font-size: 13px;
+  font-size: 13.807px;
   font-weight: 500;
-  line-height: 2.3;
+  line-height: 31.975px;
 }
 .sellers-info {
-  flex-basis: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
 }
 .info-name {
   font-family: "Roboto", sans-serif;
-  font-size: 13px;
+  font-size: 13.807px;
   font-weight: 500;
-  line-height: 2.3;
+  line-height: 24.975px;
 }
 .ifo-coins {
   display: flex;
   align-items: center;
-  gap: 3px;
+  gap: 1.5px;
 }
 .ifo-coins-icon {
   fill: #ffffffcc;
@@ -639,18 +745,18 @@
 .info-coins-price {
   color: rgba(255, 255, 255, 0.8);
   font-family: "Roboto", sans-serif;
-  font-size: 9px;
+  font-size: 9.972px;
   font-weight: 500;
-  line-height: 3.2;
+  line-height: 26.975px;
 }
 .sellers-percent {
   font-family: "Roboto", sans-serif;
-  font-size: 10px;
+  font-size: 10.656px;
   font-weight: 500;
-  padding: 4px 12px;
-  width: 72px;
-  height: 25px;
+  padding: 4.72px 12.82px 5.7px 12.02px;
   text-align: center;
+  line-height: 13.169px;
+  margin-top: 8px;
 }
 .sellers-list .sellers-item:nth-child(odd) .sellers-percent {
   border-radius: 12.706px;
@@ -670,6 +776,11 @@
 }
 .sellers-btn-wrapper {
   display: none;
+}
+.sellers-btn-wrapper-mob {
+  display: flex;
+  margin-top: 31px;
+  margin-left: 93px;
 }
 
 /* What */
@@ -804,9 +915,6 @@
 }
 
 /* Footer */
-.container {
-  padding: 0 25px;
-}
 .footer {
   padding-bottom: 174.47px;
 }
