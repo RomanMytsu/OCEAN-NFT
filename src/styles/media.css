@@ -30,6 +30,10 @@
   .hero {
     padding: 60px 0 80px;
   }
+  .hero-card {
+    position: absolute;
+    top: 901px;
+  }
   .hero-wrapper {
     align-items: center;
   }
@@ -38,6 +42,22 @@
     flex-direction: column;
     align-items: baseline;
   }
+
+  /* Top NFT */
+  .top-nft-btn-wrapper {
+    margin-left: 279px;
+  }
+
+  /* Collection */
+  .collections-btn {
+    margin-left: 633px;
+  }
+
+  /* Explore */
+  .explore-btn-wrapper-mob {
+    margin-left: 279px;
+  }
+
   /* sellers */
   .sellers-text {
     font-size: 16px;
@@ -45,6 +65,9 @@
   .sellers-list {
     flex-direction: row;
     flex-wrap: wrap;
+  }
+  .sellers-btn-wrapper-mob {
+    margin-left: 279px;
   }
 
   /* What */
