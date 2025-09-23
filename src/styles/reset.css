@@ -3,7 +3,7 @@
   font-family: "Rajdhani";
   font-style: normal;
   font-weight: 400;
-  src: url("../Fonts/rajdhani-v16-latin-regular.woff2") format("woff2");
+  src: url("./src/Fonts/rajdhani-v16-latin-regular.woff2") format("woff2");
 }
 
 @font-face {
@@ -11,7 +11,7 @@
   font-family: "Rajdhani";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/rajdhani-v16-latin-500.woff2") format("woff2");
+  src: url("./src/fonts/rajdhani-v16-latin-500.woff2") format("woff2");
 }
 
 @font-face {
@@ -19,7 +19,7 @@
   font-family: "Rajdhani";
   font-style: normal;
   font-weight: 600;
-  src: url("../fonts/rajdhani-v16-latin-600.woff2") format("woff2");
+  src: url("./src/fonts/rajdhani-v16-latin-600.woff2") format("woff2");
 }
 
 @font-face {
@@ -27,7 +27,7 @@
   font-family: "Rajdhani";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/rajdhani-v16-latin-700.woff2") format("woff2");
+  src: url("./src/fonts/rajdhani-v16-latin-700.woff2") format("woff2");
 }
 
 @font-face {
@@ -35,7 +35,7 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/roboto-v48-latin-regular.woff2") format("woff2");
+  src: url("./src/fonts/roboto-v48-latin-regular.woff2") format("woff2");
 }
 
 @font-face {
@@ -43,7 +43,7 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/roboto-v48-latin-500.woff2") format("woff2");
+  src: url("./src/fonts/roboto-v48-latin-500.woff2") format("woff2");
 }
 
 @font-face {
@@ -51,7 +51,7 @@
   font-family: "Orbitron";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/orbitron-v35-latin-700.woff2") format("woff2");
+  src: url("./src/fonts/orbitron-v35-latin-700.woff2") format("woff2");
 }
 
 @font-face {
@@ -59,7 +59,7 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/inter-v19-latin-regular.woff2") format("woff2");
+  src: url("./src/fonts/inter-v19-latin-regular.woff2") format("woff2");
 }
 
 @font-face {
@@ -67,7 +67,7 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/inter-v19-latin-500.woff2") format("woff2");
+  src: url("./src/fonts/inter-v19-latin-500.woff2") format("woff2");
 }
 
 @font-face {
@@ -75,7 +75,7 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 800;
-  src: url("../fonts/inter-v19-latin-800.woff2") format("woff2");
+  src: url("./src/fonts/inter-v19-latin-800.woff2") format("woff2");
 }
 
 @font-face {
@@ -83,7 +83,7 @@
   font-family: "Aldrich";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/aldrich-v22-latin-regular.woff2") format("woff2");
+  src: url("./src/fonts/aldrich-v22-latin-regular.woff2") format("woff2");
 }
 
 @font-face {
@@ -91,7 +91,7 @@
   font-family: "Alethia Next";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/AlethiaNext-Light.woff2") format("woff2");
+  src: url("./src/fonts/AlethiaNext-Light.woff2") format("woff2");
 }
 
 @font-face {
@@ -99,7 +99,7 @@
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/lato-v24-latin-regular.woff2") format("woff2");
+  src: url("./src/fonts/lato-v24-latin-regular.woff2") format("woff2");
 }
 
 @font-face {
@@ -107,7 +107,7 @@
   font-family: "Lato";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/lato-v24-latin-700.woff2") format("woff2");
+  src: url("./src/fonts/lato-v24-latin-700.woff2") format("woff2");
 }
 
 @font-face {
@@ -115,7 +115,7 @@
   font-family: "League Spartan";
   font-style: normal;
   font-weight: 600;
-  src: url("../fonts/league-spartan-v14-latin-600.woff2") format("woff2");
+  src: url("./src/fonts/league-spartan-v14-latin-600.woff2") format("woff2");
 }
 
 @font-face {
@@ -123,7 +123,7 @@
   font-family: "MuseoModerno";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/museomoderno-v28-latin-regular.woff2") format("woff2");
+  src: url("./src/fonts/museomoderno-v28-latin-regular.woff2") format("woff2");
 }
 
 *,
