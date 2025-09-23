@@ -1,7 +1,7 @@
 
 const showItems = document.querySelectorAll(".footer-menu-item");
 
-if (window.innerWidth < 1438) {
+if (window.innerWidth < 1440) {
   showItems.forEach((item) => {
     const title = item.querySelector(".footer-menu-item-title");
     const marker = item.querySelector(".footer-list-icon");

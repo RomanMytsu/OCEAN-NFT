@@ -28,7 +28,7 @@ function escCloseHandler(e) {
 }
 
 function windowWidth() {
-  if (window.innerWidth >= 768) {
+  if (window.innerWidth >= 1440) {
     openMenu.style.display = "none";
   } else {
     openMenu.style.display = "block";
