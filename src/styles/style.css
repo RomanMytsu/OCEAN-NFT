@@ -102,20 +102,26 @@
 
 /* Hero */
 .hero {
-  padding: 56px 0 143px;
+  padding: 48px 0 143px;
 }
 .hero-container {
-  padding: 0 34.09px 0 30px;
+  /* padding: 0 34.09px 0 30px; */
+  padding: 0 25px 0 25px;
 }
 .hero-wrapper {
   display: flex;
   flex-direction: column;
 }
+.hero-content {
+  padding-top: 6px;
+  margin-left: 5px;
+}
 .hero-title {
   font-family: "Lato", sans-serif;
   font-size: 42px;
-  line-height: 1.37;
+  line-height: 57.708px;
   margin-bottom: 27px;
+  width: 291px;
 }
 .hero-frag {
   background: linear-gradient(272deg, #43a5e3 46.06%, #ff56f6 81.53%);
@@ -126,7 +132,7 @@
 .hero-text {
   font-size: 14px;
   line-height: 1.65;
-  margin-bottom: 30px;
+  margin-bottom: 32px;
 }
 .hero-btn-wrapper {
   display: flex;
@@ -193,7 +199,7 @@
   -webkit-text-fill-color: transparent;
 }
 .hero-follow {
-  margin-bottom: 41px;
+  margin-bottom: 39px;
 }
 .hero-follow-list {
   display: flex;
@@ -215,17 +221,29 @@
   line-height: 1.17;
 }
 .hero-icons-wrapper-mob {
-  margin-bottom: 58px;
+  margin-bottom: 51px;
 }
 .hero-icons-list-mob {
   display: flex;
   flex-wrap: wrap;
-  gap: 25px 45px;
+  gap: 24px 32px;
   align-items: center;
 }
 .hero-icons {
   fill: var(--white);
   opacity: 0.5;
+}
+.binance {
+  margin-left: 6px;
+}
+.ethereum {
+  margin-left: 25px;
+}
+.blockchain {
+  margin-left: -3px;
+}
+.bitmex {
+  margin-left: -6px;
 }
 
 .hero-monster-img {
@@ -239,10 +257,10 @@
 }
 .card-wrap {
   display: flex;
-  gap: 45px;
+  gap: 46px;
   justify-content: space-between;
   backdrop-filter: blur(29.3092098236084px);
-  padding: 25.65px 17.25px 19.78px 15.38px;
+  padding: 24.65px 16.25px 15.78px 20.38px;
   clip-path: polygon(13% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 22%);
   background: linear-gradient(
     90deg,
@@ -271,10 +289,17 @@
   font-weight: 600;
   line-height: 4;
   opacity: 0.7;
+  padding-top: 2px;
+  padding-left: 2px;
+
 }
 .product {
   display: flex;
-  gap: 5.33px;
+  align-items: center;
+  gap: 0.33px;
+  margin-left: -1px;
+  margin-top: -5px;
+  
 }
 .hero-logo-icon {
   fill: var(--white);
@@ -283,6 +308,7 @@
   font-family: "Orbitron", sans-serif;
   font-size: 9px;
   white-space: nowrap;
+  margin-right: 8px;
 }
 .price {
   font-size: 10px;
@@ -293,11 +319,13 @@
   font-weight: 600;
   line-height: 3.2;
   opacity: 0.7;
+  padding-left: 9px;
 }
 .auction-list {
   display: flex;
-  gap: 18px;
+  gap: 19px;
   margin-bottom: 25.18px;
+  padding-left: 7px;
 }
 .auction-num {
   font-size: 17.053px;
@@ -343,7 +371,7 @@
 
 /* Top-NFT */
 .top-nft {
-  padding-top: 97px;
+  padding-top: 91px;
 }
 .top-nft-container {
   padding: 0 0 0 25px;
