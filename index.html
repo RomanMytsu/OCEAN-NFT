@@ -5,8 +5,8 @@
     <link rel="icon" type="image/svg+xml" href="/OCEAN-NFT/assets/logo-COvz3mlN.webp" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OCEAN NFT</title>
-    <script type="module" crossorigin src="/OCEAN-NFT/assets/index-CeDHx65p.js"></script>
-    <link rel="stylesheet" crossorigin href="/OCEAN-NFT/assets/index-iSCxbxOO.css">
+    <script type="module" crossorigin src="/OCEAN-NFT/assets/index-CXrn9UIa.js"></script>
+    <link rel="stylesheet" crossorigin href="/OCEAN-NFT/assets/index-BffEBauz.css">
   </head>
   <body>
     <header class="header">
@@ -525,18 +525,30 @@
               <li class="collections-item">Brands</li>
               <li class="collections-item">Collectibles</li>
             </ul>
-            <button class="collections-btn">
-              View all
-              <svg class="collections-icon" width="25" height="6">
-                <use href="/OCEAN-NFT/assets/sprite-DOVAVAfL.svg#icon-arrow-right"></use>
-              </svg>
-            </button>
+            <div class="collections-btn-wrapper">
+              <button class="collections-btn">
+                View all
+                <svg class="collections-icon" width="21" height="6">
+                  <use href="/OCEAN-NFT/assets/sprite-DOVAVAfL.svg#icon-arrow-right"></use>
+                </svg>
+              </button>
+            </div>
           </div>
-          <img
-            class="collections-img"
-            src="/OCEAN-NFT/assets/girl-C_EuXyPc.webp"
-            alt="Photo girl"
-          />
+          <picture>
+            <source
+              srcset="/OCEAN-NFT/assets/girl-C_EuXyPc.webp"
+              media="(min-width: 1440)"
+            />
+            <source
+              srcset="./src/Image/gir-mob.webp"
+              media="(max-width: 1439)"
+            />
+            <img
+              class="collections-img"
+              src="/OCEAN-NFT/assets/girl-mob-CdXA_WxT.webp"
+              alt="Photo girl"
+            />
+          </picture>
         </div>
       </section>
       <section class="explore">
