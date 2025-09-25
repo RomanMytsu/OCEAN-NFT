@@ -11,13 +11,11 @@ const swiper = new Swiper(".swiper", {
     },
     1440: {
       slidesPerView: 3,
+      spaceBetween: 30,
+    },
+    1600: {
+      slidesPerView: 3,
       spaceBetween: 35,
     },
-    1920: {
-      slidesPerView: 3,
-      spaceBetween: 50,
-    },
-    
   },
 });
-
