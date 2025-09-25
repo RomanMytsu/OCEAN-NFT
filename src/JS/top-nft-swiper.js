@@ -13,6 +13,10 @@ const swiper = new Swiper(".swiper", {
       slidesPerView: 3,
       spaceBetween: 35,
     },
+    1920: {
+      slidesPerView: 3,
+      spaceBetween: 50,
+    },
     
   },
 });

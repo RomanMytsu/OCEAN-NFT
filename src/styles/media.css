@@ -731,8 +731,8 @@
     margin-top: 24px;
   }
   .hero-card {
-    top: 568px;
-    right: 104px;
+    top: 48.5%;
+    right: 6.5%;
   }
   .card-wrap {
     display: flex;
@@ -1292,7 +1292,765 @@
     padding-bottom: 39.49px;
   }
   .footer-line {
-    width: 1338.711px;
+    width: 100%;
+    height: 1.105px;
+    margin: 0 0 97.99px 0;
+  }
+  .footer-container {
+    padding: 0 182.4px 0 85.91px;
+  }
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 89.54px;
+    margin-bottom: 85.04px;
+  }
+  .footer-head {
+    align-items: baseline;
+    margin-bottom: 0;
+  }
+  .footer-logo-link {
+    gap: 1px;
+    margin-bottom: 35.95px;
+  }
+  .footer-head-text {
+    min-width: 279px;
+    margin-bottom: 26.53px;
+  }
+  .footer-list-icon {
+    display: none;
+  }
+  .footer-menu-list {
+    margin-bottom: 0;
+    display: flex;
+    gap: 76.38px;
+  }
+  .footer-menu-item {
+    border-bottom: 0;
+    margin-bottom: 0;
+  }
+  .footer-menu-item-title {
+    margin-bottom: 17.69px;
+  }
+  .item-title {
+    width: 133.873px;
+  }
+  .submenu {
+    overflow: visible;
+    margin-top: 0;
+    gap: 13.5px;
+    max-height: none;
+  }
+  .item-text-frag {
+    margin-left: 7.84px;
+  }
+  .bottom {
+    display: block;
+    margin: 0 0 26.53px 0;
+  }
+  .footer-copyright {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer-copyright-text {
+    margin-left: -7px;
+  }
+  .footer-copyright-list {
+    gap: 5.68px;
+    margin-right: -20px;
+  }
+  .footer-copyright-list li:last-of-type {
+    display: block;
+    border: none;
+    gap: 4px;
+  }
+  .footer-copyright-item {
+    border-right: 2px solid #d9dbe1;
+    padding-right: 17px;
+    line-height: 0;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .header {
+    padding-top: 50.06px;
+  }
+  .header-container {
+    padding: 0 113.55px 0 113.86px;
+    gap: 224.62px;
+  }
+  .logo-link {
+    font-size: 19.898px;
+  }
+  .header-menu {
+    display: flex;
+    flex: 1;
+    gap: 226px;
+  }
+  .header-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 67px;
+  }
+  .header-item-link {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Orbitron", sans-serif;
+    font-size: 19.898px;
+  }
+  .header-acount {
+    display: flex;
+  }
+  .header-acount-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 39px;
+  }
+
+  /* Hero */
+  .hero {
+    padding: 98px 0 210px;
+  }
+  .hero-container {
+    padding: 0 113.02px 0 101.44px;
+  }
+  .hero-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 519px;
+    margin-bottom: 125px;
+  }
+  .hero-title {
+    font-family: "Spartan", sans-serif;
+    font-weight: 600;
+    font-size: 71.328px;
+    line-height: 91.134px;
+    margin-bottom: 27px;
+    max-width: 733px;
+  }
+  .hero-text {
+    font-size: 26.531px;
+    line-height: 44.218px;
+    margin-left: -4px;
+    max-width: 657px;
+    margin-bottom: 45px;
+  }
+  .hero-btn-wrapper {
+    gap: 37.59px;
+    margin-bottom: 64px;
+  }
+  .hero-btn {
+    gap: 11px;
+    width: 249px;
+    font-size: 19.898px;
+    padding: 20px 32px 19px 67px;
+  }
+  .hero-icon-des {
+    width: 51.957px;
+    height: 15.476px;
+  }
+  .hero-link {
+    font-size: 19px;
+  }
+  .hero-follow {
+    margin-bottom: 0px;
+  }
+  .hero-follow-list {
+    justify-content: space-between;
+    gap: 45px;
+  }
+  .hero-follow-list:last-of-type {
+    max-width: 480px;
+  }
+  .hero-follow-list li:last-of-type {
+    border: none;
+  }
+  .item-right {
+    margin-right: -5px;
+  }
+  .hero-follow-item {
+    border-right: 1.105px solid#FFFFFF42;
+    padding-right: 14.84px;
+  }
+  .follow-num {
+    font-size: 39.797px;
+    line-height: 53.062px;
+    letter-spacing: 0.221px;
+    margin-bottom: -1.1px;
+  }
+  .follow-text {
+    font-family: "Alethia Next", sans-serif;
+    font-size: 17.687px;
+    line-height: 22.109px;
+    letter-spacing: 0.221px;
+  }
+  .hero-img-wrapper {
+    margin-top: 24px;
+  }
+  .hero-card {
+    top: 38.5%;
+    right: 5.5%;
+  }
+  .card-wrap {
+    display: flex;
+    gap: 48px;
+    backdrop-filter: blur(30.400127410888672px);
+    padding: 27.64px 25px 19.9px 19.21px;
+    clip-path: polygon(13% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 22%);
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.1) -1.52%,
+      rgba(255, 255, 255, 0.02) 104.35%
+    );
+    border: 2.132px solid rgba(255, 255, 255, 0.28);
+    border-radius: 8.84px;
+    backdrop-filter: blur(15px);
+  }
+  .card-title {
+    font-size: 17.687px;
+    font-weight: 700;
+    line-height: 35.375px;
+    margin-right: -4px;
+  }
+  .user-nickname {
+    font-size: 15.476px;
+    font-weight: 600;
+    line-height: 35.375px;
+  }
+  .card-price {
+    font-size: 11.055px;
+    font-weight: 600;
+    line-height: 35.375px;
+    padding-top: 5px;
+    padding-left: 0px;
+  }
+  .product {
+    align-items: center;
+    gap: 0.62px;
+    margin-left: -3px;
+  }
+  .price-name {
+    font-family: "Orbitron", sans-serif;
+    font-size: 9.718px;
+    margin-right: 6px;
+  }
+  .price {
+    font-size: 11.055px;
+  }
+  .auction-list {
+    margin-bottom: 28.18px;
+    padding-left: 8px;
+  }
+  .auction-title {
+    font-size: 11.055px;
+    line-height: 35.375px;
+    padding-left: 6px;
+  }
+
+  .auction-text {
+    font-size: 11.055px;
+  }
+  .auction-btn {
+    display: flex;
+    gap: 9.95px;
+    align-items: center;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 17.687px;
+    font-weight: 600;
+    color: var(--white);
+    fill: var(--white);
+    stroke: var(--white);
+    padding: 7.74px 8.84px 7.74px 9.95px;
+    border-radius: 4.132px;
+    border-image: linear-gradient(280deg, #ffa6fa, #3c79d4) 1;
+    background: linear-gradient(
+      92deg,
+      #ff56f6 21.43%,
+      #b936ee 50.63%,
+      #3bace2 100%,
+      #406aff 117.04%
+    );
+    box-shadow: 0 4.263px 103.382px 0 rgba(255, 86, 246, 0.51);
+    backdrop-filter: blur(102.3157958984375px);
+    cursor: pointer;
+    margin-right: -8px;
+    white-space: nowrap;
+  }
+  .hero-icons-wrapper {
+    display: block;
+  }
+  .hero-icons-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .binance {
+    width: 265.31px;
+    height: 53.062px;
+    margin-left: 0;
+  }
+  .ethereum {
+    width: 170.241px;
+    height: 53.062px;
+    margin-left: 0;
+  }
+  .blockchain {
+    width: 349.325px;
+    height: 53.062px;
+    margin-left: 0;
+  }
+  .bitmex {
+    width: 196.398px;
+    height: 50.369px;
+    margin-left: 0;
+  }
+  .hero-icons-wrapper-mob {
+    display: none;
+  }
+
+  /* TOP-NFT */
+  .top-nft {
+    padding: 0 0 145px 0;
+  }
+  .top-nft-container {
+    padding: 0 120.5px 0 109.44px;
+  }
+  .top-nft-title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 47.37px;
+  }
+  .top-nft-title {
+    font-size: 26.531px;
+    margin-bottom: 0;
+  }
+  .top-nft-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16.58px;
+    background-color: transparent;
+    border: none;
+    color: var(--white);
+    font-family: "Orbitron", sans-serif;
+    font-size: 26.531px;
+    cursor: pointer;
+    fill: var(--white);
+    stroke: var(--white);
+    margin-right: -10px;
+  }
+  .collections-icon {
+    width: 51.957px;
+    height: 26.531px;
+  }
+  .top-nft-card-wrap {
+    padding: 35.81px 19.36px 19.92px 29.56px;
+    border: 2.88px rgba(255, 255, 255, 0.28) solid;
+    gap: 33px;
+    justify-content: space-between;
+  }
+  .top-nft-item {
+    width: 434.762px !important;
+    margin-right: 37.8px !important;
+  }
+  .card-title-nft {
+    font-size: 23.04px;
+    line-height: 46.08px;
+    margin-bottom: 0;
+  }
+  .user-top-nft {
+    margin-bottom: 17px;
+  }
+  .user-top-nft-img {
+    width: 37.44px;
+    height: 37.44px;
+  }
+  .user-ok-img {
+    width: 15.84px;
+    height: 17.28px;
+  }
+  .user-nickname-nft {
+    font-size: 20.16px;
+    line-height: 46.08px;
+    margin-right: 1px;
+  }
+  .card-price-nft {
+    font-size: 14.4px;
+    line-height: 46.08px;
+    padding-top: 0px;
+  }
+  .product-top-nft {
+    gap: 1.46px;
+    align-items: center;
+    margin-left: -6px;
+    margin-top: -15px;
+  }
+  .product-icon {
+    width: 25.317px;
+    height: 25.317px;
+  }
+  .price-name-nft {
+    font-size: 12.659px;
+    margin-right: 7px;
+    line-height: 46.08px;
+  }
+  .price-nft {
+    font-size: 14.4px;
+    line-height: 46.08px;
+  }
+
+  .auction-title-nft {
+    font-size: 14.4px;
+    line-height: 46.08px;
+  }
+  .auction-list-top-nft {
+    justify-content: space-between;
+    margin-bottom: 46.82px;
+    gap: 0;
+  }
+  .auction-num-nft {
+    font-size: 23.04px;
+    margin-bottom: 23px;
+    margin-right: 15px;
+  }
+  .auction-text-nft {
+    font-size: 14.4px;
+  }
+  .top-nft-auction-btn {
+    padding: 10.08px 11.52px 10.08px 12.96px;
+    font-size: 23.04px;
+    gap: 12.96px;
+    white-space: nowrap;
+    text-align: center;
+  }
+  .auction-icon {
+    width: 31.68px;
+    height: 12.01px;
+  }
+  .top-nft-btn-wrapper {
+    display: none;
+  }
+
+  /* Collections */
+  .collections {
+    padding: 0 0 176px 0;
+  }
+  .collections-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 148.13px 0 110.55px;
+  }
+  .collections-content {
+    max-width: 67%;
+  }
+  .collections-title {
+    font-size: 26.531px;
+    margin-bottom: 47.01px;
+  }
+  .collections-list {
+    gap: 43.11px;
+    margin-bottom: 43.11px;
+  }
+  .collections-item {
+    width: 368.118px;
+    font-size: 26.531px;
+    padding: 33px;
+  }
+  .collections-btn {
+    font-size: 19px;
+  }
+  .collections-img {
+    width: 435.551px;
+    height: 814.723px;
+    margin: 0 0 0 0;
+    padding: 10px 0 0 10px;
+  }
+  .collections-btn-wrapper {
+    width: 86%;
+  }
+  .collections-btn {
+    font-size: 19.898px;
+    gap: 10px;
+    align-items: center;
+  }
+
+  /* Explore */
+  .explore {
+    padding: 0 0 158px 0;
+  }
+  .explore-container {
+    padding: 0px 120.5px 0px 109.76px;
+  }
+  .explore-title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 47.53px;
+  }
+  .explore-title {
+    font-size: 26.531px;
+  }
+  .explore-item {
+    border: 2.88px solid rgba(255, 255, 255, 0.28);
+    backdrop-filter: blur(39.60016632080078px);
+    width: 434.333px !important;
+    margin-right: 39.8px !important;
+  }
+  .explore-card-content {
+    padding: 101.7px 39.8px 40.9px;
+  }
+  .explore-user-img {
+    width: 162.503px;
+    height: 162.503px;
+  }
+  .explore-card-name {
+    font-size: 24.32px;
+    line-height: 46.08px;
+    margin-bottom: -14px;
+  }
+  .explore-nickname-wrapper {
+    gap: 1.91px;
+    margin-left: 20.91px;
+    margin-bottom: 18.82px;
+  }
+  .explore-nickname {
+    font-size: 20.16px;
+    line-height: 46.08px;
+  }
+  .explore-nickname-img {
+    width: 15.84px;
+    height: 17.28px;
+  }
+  .explore-stat {
+    width: 98.8%;
+    margin-bottom: 41.21px;
+  }
+  .stat-num {
+    font-size: 31.69px;
+  }
+  .stat-descrip {
+    font-size: 19.806px;
+  }
+  .explore-btn {
+    font-size: 19.898px;
+    width: 234.84px;
+    height: 50.851px;
+    padding: 11.05px;
+    border: 2.409px solid #ffa6fa;
+    margin-left: 9px;
+  }
+  .explore-btn-wrapper-mob {
+    display: none;
+  }
+
+  /* Sellers */
+  .sellers {
+    padding: 0 0 155px 0;
+  }
+  .sellers-container {
+    padding: 0 113.92px 0 109px;
+  }
+  .sellers-title {
+    font-size: 26.531px;
+    margin: 0 0 23.22px 31px;
+  }
+  .sellers-title-icon {
+    width: 15.233px;
+    height: 25.16px;
+  }
+  .sellers-text {
+    font-size: 17.687px;
+    line-height: 140.188%;
+    max-width: 506.3px;
+    margin: 0 0 59.69px 444.69px;
+  }
+  .sellers-list-mob {
+    display: none;
+  }
+  .sellers-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 34.99px 34.99px;
+    margin-bottom: 57px;
+  }
+  .sellers-item {
+    width: calc((100% - 34.99px * 2) / 3);
+    height: 124px;
+    gap: 14px;
+    border-radius: 28.572px;
+    border: 2.757px solid rgba(255, 255, 255, 0.28);
+    backdrop-filter: blur(37.90785598754883px);
+    padding: 27.51px 20.29px 26.46px 31.63px;
+  }
+  .sellers-item-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12.95px;
+  }
+  .sellers-item:nth-child(n + 10) .sellers-item-wrapper {
+    margin-left: -11px;
+    margin-top: -4px;
+  }
+  .sellers-item-img {
+    width: 69.842px;
+    height: 69.842px;
+  }
+  .item-number {
+    font-size: 19.048px;
+    line-height: 44.111px;
+  }
+  .sellers-info {
+    margin-top: 10px;
+  }
+  .ifo-coins {
+    display: flex;
+    align-items: center;
+    gap: 4.23px;
+    margin-bottom: 10px;
+  }
+  .info-name {
+    font-size: 19.048px;
+    line-height: 34.111px;
+  }
+  .info-coins-price {
+    font-size: 13.757px;
+    line-height: 39.111px;
+  }
+  .sellers-percent {
+    font-size: 14.701px;
+    width: 100.597px;
+    height: 35.375px;
+    padding: 8.51px 17.69px 7.87px 13.58px;
+    margin: 15px -6px 0 0;
+  }
+  .sellers-list .sellers-item:nth-child(odd) .sellers-percent {
+    border-radius: 17.528px;
+    background: linear-gradient(
+      180deg,
+      rgba(235, 20, 20, 0.15) 0%,
+      rgba(235, 20, 20, 0.1) 100%
+    );
+    border: 1.131px solid rgba(178, 0, 0, 0.72);
+    color: #f00;
+  }
+  .sellers-list .sellers-item:nth-child(even) .sellers-percent {
+    border-radius: 17.528px;
+    border: 1.131px solid rgba(0, 178, 71, 0.72);
+    background: rgba(0, 178, 71, 0.15);
+    color: #0f6;
+  }
+  .sellers-btn-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sellers-btn {
+    margin-left: 21px;
+  }
+  .sellers-btn-wrapper-mob {
+    display: none;
+  }
+
+  /* What */
+  .what {
+    height: 556px;
+    padding-top: 216px;
+  }
+  .what-container {
+    padding: 0 140.92px 0 0;
+  }
+  .what-wrapper {
+    position: absolute;
+    left: 884px;
+    border-radius: 2.883px;
+    border: 2.883px solid #616161;
+    backdrop-filter: blur(72.80126190185547px);
+    padding: 59.95px 47.39px 50.62px 70.21px;
+    max-width: 577.05px;
+  }
+  .what-content-subtitle {
+    font-size: 44.509px;
+    line-height: 60.088px;
+    margin-bottom: 17.8px;
+  }
+  .what-content-text {
+    font-size: 20.029px;
+    line-height: 35.607px;
+    margin-bottom: 50px;
+  }
+  .what-content-btn {
+    gap: 48px;
+  }
+  .content-btn-more {
+    font-size: 17.804px;
+    line-height: 26.706px;
+  }
+  .content-btn-play {
+    font-size: 17.804px;
+    line-height: 26.706px;
+    gap: 8.9px;
+  }
+  .play-icon {
+    width: 12.24px;
+    height: 17.804px;
+  }
+
+  /* Subscribe */
+  .subscribe {
+    padding: 298.63px 0 159.37px;
+  }
+  .subscribe-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 74.35px;
+    padding: 0 227.72px 0 110.55px;
+  }
+  .text-wrapper {
+    padding-top: 23px;
+  }
+  .subscribe-title {
+    font-size: 39.797px;
+    margin-bottom: 27.64px;
+  }
+  .subscribe-text {
+    font-size: 19.898px;
+    line-height: 35.375px;
+    margin-bottom: 49.74px;
+    width: 484px;
+  }
+  .subscribe-form {
+    gap: 8.84px;
+  }
+  .subscribe-input {
+    border-radius: 5.527px 0 0 5.527px;
+    padding: 18.03px 17.69px;
+    font-size: 15.476px;
+    width: 275px;
+  }
+  .subscribe-form-btn {
+    font-size: 15.476px;
+    border-radius: 0 5.527px 5.527px 0;
+    border: 2.409px solid #ffa6fa;
+    box-shadow: 0 4.817px 116.824px 0 rgba(255, 86, 246, 0.51);
+    padding: 15.05px 31.36px 18.48px;
+    text-align: center;
+    width: 146px;
+  }
+  /* Footer */
+  .footer {
+    padding-bottom: 39.49px;
+  }
+  .footer-line {
+    width: 100%;
     height: 1.105px;
     margin: 0 0 97.99px 0;
   }
