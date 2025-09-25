@@ -738,7 +738,7 @@
     margin-top: 29px;
   }
   .hero-card {
-    top: 48.2%;
+    top: 37.2%;
     right: 6.5%;
   }
   .card-wrap {
@@ -894,6 +894,9 @@
   .collections-icon {
     width: 51.957px;
     height: 26.531px;
+  }
+  .top-nft-card {
+    width: 100%;
   }
   .top-nft-card-wrap {
     padding: 35.81px 19.36px 19.92px 29.56px;
@@ -1116,7 +1119,7 @@
     font-size: 17.687px;
     line-height: 140.188%;
     max-width: 506.3px;
-    margin: 0 0 59.69px 444.69px;
+    margin: 0 auto 59.69px;
   }
   .sellers-list-mob {
     display: none;
@@ -1653,6 +1656,9 @@
     width: 51.957px;
     height: 26.531px;
   }
+  .top-nft-card {
+    width: 81%;
+  }
   .top-nft-card-wrap {
     padding: 35.81px 19.36px 19.92px 29.56px;
     border: 2.88px rgba(255, 255, 255, 0.28) solid;
@@ -1660,8 +1666,8 @@
     justify-content: space-between;
   }
   .top-nft-item {
-    width: 434.762px !important;
-    margin-right: 37.8px !important;
+    width: 32% !important;
+    margin-right: 4% !important;
   }
   .card-title-nft {
     font-size: 23.04px;
@@ -1778,7 +1784,7 @@
     padding: 10px 0 0 10px;
   }
   .collections-btn-wrapper {
-    width: 86%;
+    width: 69%;
   }
   .collections-btn {
     font-size: 19.898px;
@@ -1798,6 +1804,7 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 47.53px;
+    width: 100%;
   }
   .explore-title {
     font-size: 26.531px;
@@ -1805,8 +1812,8 @@
   .explore-item {
     border: 2.88px solid rgba(255, 255, 255, 0.28);
     backdrop-filter: blur(39.60016632080078px);
-    width: 434.333px !important;
-    margin-right: 39.8px !important;
+    width: 31% !important;
+    margin-right: 4% !important;
   }
   .explore-card-content {
     padding: 101.7px 39.8px 40.9px;
@@ -1874,7 +1881,7 @@
     font-size: 17.687px;
     line-height: 140.188%;
     max-width: 506.3px;
-    margin: 0 0 59.69px 444.69px;
+    margin: 0 auto 59.69px;
   }
   .sellers-list-mob {
     display: none;
