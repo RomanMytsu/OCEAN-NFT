@@ -252,7 +252,7 @@
 }
 .hero-card {
   position: absolute;
-  top: 150%;
+  top: 82.5%;
 }
 .card-wrap {
   display: flex;
@@ -381,6 +381,9 @@
 }
 .top-nft-btn {
   display: none;
+}
+.top-nft-card {
+  width: 100%;
 }
 .top-nft-card-wrap {
   display: flex;

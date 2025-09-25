@@ -1,11 +1,11 @@
-@media screen and (min-width: 376px) and (max-width: 768px) {
+@media screen and (min-width: 760px) and (max-width: 768px) {
   /* Hero */
   .hero {
     padding: 60px 0 80px;
   }
   .hero-card {
     position: absolute;
-    top: 901px;
+    top: 138.5%;
   }
   .hero-wrapper {
     align-items: center;
@@ -26,7 +26,10 @@
   }
 
   /* Collection */
-  
+  .collections-btn-wrapper {
+    display: flex;
+    justify-content: flex-end;
+  }
 
   /* Explore */
   .explore-btn-wrapper-mob {
@@ -40,9 +43,6 @@
   /* sellers */
   .sellers-text {
     font-size: 16px;
-  }
-  .sellers-btn-wrapper-mob {
-    margin-left: 279px;
   }
 
   /* What */
@@ -77,7 +77,7 @@
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1440px) {
+@media screen and (min-width: 900px) and (max-width: 1440px) {
   .header {
     padding-top: 45px;
   }
@@ -180,12 +180,12 @@
     right: 135px;
   }
   .hero-card {
-    top: 515px;
-    right: 26px;
+    top: 46%;
+    right: 2%;
   }
   .card-wrap {
     backdrop-filter: blur(15px);
-    width: 336px;
+    width: 100%;
   }
   .hero-icons-wrapper {
     display: block;
@@ -229,6 +229,9 @@
     cursor: pointer;
     fill: var(--white);
     stroke: var(--white);
+  }
+  .top-nft-card {
+    width: 94.5%;
   }
   .top-nft-card-wrap {
     padding: 35px 27px 25px 20px;
@@ -293,11 +296,13 @@
     font-size: 22px;
     padding: 26px;
   }
-
+  .collections-btn-wrapper {
+    display: flex;
+    justify-content: flex-end;
+  }
   .collections-btn {
     font-size: 15px;
     gap: 15px;
-    margin-left: 714px;
   }
   .collections-icon {
     width: 51px;
@@ -388,23 +393,20 @@
     margin: 0 auto 38px;
   }
   .sellers-list-mob {
-    display: none;
-  }
-  .sellers-list {
-    display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 28px;
-    margin-bottom: 61px;
+    margin-bottom: 51px;
   }
+
   .sellers-item {
     padding: 25px 18px 24px 27px;
     border-radius: 28.572px;
     border: 2.757px solid rgba(255, 255, 255, 0.28);
     backdrop-filter: blur(37.90785598754883px);
     height: 114px;
-    width: calc((100% - 28px * 2) / 3);
+    width: calc((100% - 31px * 2) / 2);
   }
   .sellers-item-wrapper {
     display: flex;
@@ -552,6 +554,7 @@
   .footer-content {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     gap: 60.54px;
     margin-bottom: 86.04px;
   }
@@ -573,7 +576,6 @@
     margin-bottom: 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     gap: 77.38px;
   }
   .footer-menu-item {
@@ -681,7 +683,7 @@
     line-height: 44.218px;
     margin-left: -4px;
     max-width: 657px;
-    margin-bottom: 45px;
+    margin-bottom: 42px;
   }
   .hero-btn-wrapper {
     gap: 37.59px;
@@ -708,7 +710,7 @@
     gap: 45px;
   }
   .hero-follow-list:last-of-type {
-    max-width: 480px;
+    width: 66.5%;
   }
   .hero-follow-list li:last-of-type {
     border: none;
@@ -733,17 +735,17 @@
     letter-spacing: 0.221px;
   }
   .hero-img-wrapper {
-    margin-top: 24px;
+    margin-top: 29px;
   }
   .hero-card {
-    top: 48.5%;
+    top: 48.2%;
     right: 6.5%;
   }
   .card-wrap {
     display: flex;
     gap: 48px;
     backdrop-filter: blur(30.400127410888672px);
-    padding: 27.64px 25px 19.9px 19.21px;
+    padding: 26.64px 25px 19.9px 19.21px;
     clip-path: polygon(13% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 22%);
     background: linear-gradient(
       90deg,
