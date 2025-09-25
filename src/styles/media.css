@@ -180,7 +180,7 @@
     right: 135px;
   }
   .hero-card {
-    top: 46%;
+    top: 69%;
     right: 2%;
   }
   .card-wrap {
@@ -620,7 +620,7 @@
   }
 }
 
-@media screen and (min-width: 1441px) and (max-width: 1920px) {
+@media screen and (min-width: 1600px) and (max-width: 1919px) {
   .header {
     padding-top: 50.06px;
   }
@@ -738,14 +738,14 @@
     margin-top: 29px;
   }
   .hero-card {
-    top: 48.2%;
+    top: 41.2%;
     right: 6.5%;
   }
   .card-wrap {
     display: flex;
     gap: 48px;
     backdrop-filter: blur(30.400127410888672px);
-    padding: 26.64px 25px 19.9px 19.21px;
+    padding: 29.64px 25px 19.9px 19.21px;
     clip-path: polygon(13% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 22%);
     background: linear-gradient(
       90deg,
