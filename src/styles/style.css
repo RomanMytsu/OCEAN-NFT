@@ -823,8 +823,10 @@
 }
 .sellers-btn-wrapper-mob {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 24px;
   margin-top: 31px;
-  margin-left: 93px;
 }
 
 /* What */
