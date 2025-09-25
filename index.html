@@ -523,18 +523,30 @@
               <li class="collections-item">Brands</li>
               <li class="collections-item">Collectibles</li>
             </ul>
-            <button class="collections-btn">
-              View all
-              <svg class="collections-icon" width="25" height="6">
-                <use href="./src/Image/sprite.svg#icon-arrow-right"></use>
-              </svg>
-            </button>
+            <div class="collections-btn-wrapper">
+              <button class="collections-btn">
+                View all
+                <svg class="collections-icon" width="21" height="6">
+                  <use href="./src/Image/sprite.svg#icon-arrow-right"></use>
+                </svg>
+              </button>
+            </div>
           </div>
-          <img
-            class="collections-img"
-            src="./src/Image/girl.webp"
-            alt="Photo girl"
-          />
+          <picture>
+            <source
+              srcset="./src/Image/girl.webp"
+              media="(min-width: 1440)"
+            />
+            <source
+              srcset="./src/Image/gir-mob.webp"
+              media="(max-width: 1439)"
+            />
+            <img
+              class="collections-img"
+              src="./src/Image/girl-mob.webp"
+              alt="Photo girl"
+            />
+          </picture>
         </div>
       </section>
       <section class="explore">

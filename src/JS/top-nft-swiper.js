@@ -2,8 +2,8 @@ import Swiper from "swiper";
 import "swiper/css";
 
 const swiper = new Swiper(".swiper", {
-  slidesPerView: 1.13,
-  spaceBetween: 24.56,
+  slidesPerView: 1.14,
+  spaceBetween: 24,
   breakpoints: {
     768: {
       slidesPerView: 2,

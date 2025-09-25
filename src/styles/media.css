@@ -23,7 +23,8 @@
 
   /* Collection */
   .collections-btn {
-    margin-left: 633px;
+    /* margin-left: 633px; */
+    justify-content: end;
   }
 
   /* Explore */
@@ -62,7 +63,7 @@
   }
 
   .footer-line {
-    width: 703px;
+    width: 100%;
   }
   .footer-head {
     display: flex;
@@ -186,8 +187,10 @@
   }
   .hero-icons-list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
   }
   .hero-icons-wrapper-mob {
     display: none;
@@ -534,7 +537,7 @@
   }
 
   .footer-line {
-    width: 1290.711px;
+    width: 100%;
     height: 1.105px;
     margin: 0 0 95.99px 0;
   }
@@ -564,6 +567,8 @@
   .footer-menu-list {
     margin-bottom: 0;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     gap: 77.38px;
   }
   .footer-menu-item {
@@ -608,7 +613,7 @@
   }
 }
 
-@media screen and (min-width: 1441px)  {
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
   .header {
     padding-top: 50.06px;
   }
@@ -664,7 +669,7 @@
     font-size: 71.328px;
     line-height: 91.134px;
     margin-bottom: 27px;
-    width: 733px;
+    max-width: 733px;
   }
   .hero-text {
     font-size: 26.531px;
@@ -849,7 +854,7 @@
 
   /* TOP-NFT */
   .top-nft {
-    padding: 0 0 137px 0;
+    padding: 0 0 145px 0;
   }
   .top-nft-container {
     padding: 0 120.5px 0 109.44px;
@@ -884,7 +889,7 @@
     height: 26.531px;
   }
   .top-nft-card-wrap {
-    padding: 35.81px 27.36px 19.92px 30.56px;
+    padding: 35.81px 19.36px 19.92px 29.56px;
     border: 2.88px rgba(255, 255, 255, 0.28) solid;
     gap: 33px;
     justify-content: space-between;
@@ -917,6 +922,7 @@
   .card-price-nft {
     font-size: 14.4px;
     line-height: 46.08px;
+    padding-top: 0px;
   }
   .product-top-nft {
     gap: 1.46px;
@@ -944,17 +950,16 @@
   }
   .auction-list-top-nft {
     justify-content: space-between;
-    margin-bottom: 41.82px;
-    max-width: 86%;
+    margin-bottom: 46.82px;
     gap: 0;
   }
   .auction-num-nft {
     font-size: 23.04px;
-    line-height: 32.08px;
+    margin-bottom: 23px;
+    margin-right: 15px;
   }
   .auction-text-nft {
     font-size: 14.4px;
-    line-height: 9.08px;
   }
   .top-nft-auction-btn {
     padding: 10.08px 11.52px 10.08px 12.96px;
@@ -1007,10 +1012,13 @@
     margin: 0 0 0 0;
     padding: 10px 0 0 10px;
   }
+  .collections-btn-wrapper {
+    width: 86%;
+  }
   .collections-btn {
     font-size: 19.898px;
-    gap: 15px;
-    margin: 0 0 0 614px;
+    gap: 10px;
+    align-items: center;
   }
 
   /* Explore */
@@ -1302,10 +1310,11 @@
     margin-bottom: 0;
   }
   .footer-logo-link {
+    gap: 1px;
     margin-bottom: 35.95px;
   }
   .footer-head-text {
-    width: 279px;
+    min-width: 279px;
     margin-bottom: 26.53px;
   }
   .footer-list-icon {
