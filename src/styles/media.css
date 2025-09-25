@@ -31,8 +31,7 @@
     padding: 60px 0 80px;
   }
   .hero-card {
-    position: absolute;
-    top: 67.5%;
+    top: 968px;
   }
   .hero-wrapper {
     align-items: center;
@@ -222,8 +221,8 @@
     margin-top: -2px;
   }
   .hero-card {
-    top: 41.2%;
-    right: 6.5%;
+    top: 565px;
+    right: 104px;
   }
   .card-wrap {
     display: flex;
@@ -976,8 +975,8 @@
     margin-top: 29px;
   }
   .hero-card {
-    top: 41.2%;
-    right: 6.5%;
+    top: 565px;
+    right: 127px;
   }
   .card-wrap {
     display: flex;
@@ -1139,7 +1138,7 @@
     gap: 33px;
     justify-content: space-between;
   }
-  
+
   .card-title-nft {
     font-size: 23.04px;
     line-height: 46.08px;
